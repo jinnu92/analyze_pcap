@@ -43,10 +43,13 @@ extended_usage=
 
 EXAMPLES:
     analyze_pcap --help
+    
     analyze_pcap -r G711.pcap
+    
     analyze_pcap -r G711.pcap --source_ip 10.3.51.11 --source_port 35768 --codec
+    
     analyze_pcap -r G711.pcap --source_ip 10.3.51.11 --source_port 35768 --max_jitter
-        
+            
 Dependencies:
 
    apt-get install -y tshark
